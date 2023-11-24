@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.cor1{
+    color:#96eec9;
+    color: #1783cc;
+    color:#4a687b;
+    color: #fbead7;
+    color:#f2a849;
+    color:#def2e2;
+    color:#6ac981;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+table,
+th,
+td {
+    padding: 5px;
+    border: 1px solid black;
+}
+td{
+    text-align: center;
+}
+main{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
