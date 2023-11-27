@@ -1,38 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Documentacao</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <main>
-        <h1 style="width: 100%; text-align: center;">Documentação Iptu curitiba </h1>
+        <nav>
+            <img src="./src/img/scasa.png" alt="">
+        </nav>
+        <h1 style="width: 100%; text-align: center;color: #1783cc;">Documentação Iptu curitiba </h1>
         <div style="display: flex; flex-direction: column; gap: 12px; align-items: center;">
-            <h3>Tipos de integração</h3>
+            <h2 style="color: #1783cc;">Tipos de integração</h2>
             <ul style="display: flex; gap: 20px;">
-                <li style="width: 400px; border-bottom: 1px solid #6ac981; background-color:#def2e2">
+                <li style="width: 400px; border-bottom: 1px solid #6ac981; background-color:#def2e2; padding:0 50px;border-radius: 50px;">
                     <a href="https://iptu-dam.curitiba.pr.gov.br/Parcelamento">Website</a>
                     <p>
-                        A integracao do sistema e feito com acesso web 
+                        A integracao do sistema e feito com acesso web
                         portanto tenha em maos os dados nessessarios para logon
                         lo site da prefeitura para emissao dos boletos.
-                    </p>    
+                    </p>
                 </li>
-                <li style="width: 400px; border-bottom: 1px solid #f2a849; background-color:#fbead7;">
+                <li style="width: 400px; border-bottom: 1px solid #f2a849; background-color:#fbead7; padding:0 50px;border-radius: 50px;">
                     <p>App</p>
                     <p>Indisponivel. Integracao feita esclusivamente via site</p>
                 </li>
             </ul>
         </div>
         <div style="display: flex; flex-direction: column; gap: 12px; align-items: center;">
-            <h3>Dados para login no sistema </h3>
+            <h3 style="color: #1783cc;">Dados para login no sistema </h3>
             <img src="./src/img/dados coritiba.png" alt="">
             <p style="width: 50%; text-align: center;">
                 Para emissao dos boletos e nessesario informar a indicacao
                 fiscal do imovel e o numero do convenio, basta inserir os daodos
-                nao e nessessario colocar traços e pontos 
+                nao e nessessario colocar traços e pontos
             </p>
             <table>
                 <thead>
@@ -64,7 +72,8 @@
                     </tr>
                 </tbody>
             </table>
-            <div style="width: 500px; display:flex; background-color:   #fbead7; border: 1px solid #f2a849; padding: 5px; gap: 15px; border-radius: 10px;" >
+            <div
+                style="width: 500px; display:flex; background-color:   #fbead7; border: 1px solid #f2a849; padding: 5px; gap: 15px; border-radius: 10px;">
                 <h3>sempre saber</h3>
                 <ul>
                     <li># Quantidade de dados para login</li>
@@ -76,21 +85,21 @@
                 </ul>
             </div>
         </div>
-        <div style="width: 100%; flex-direction: column; display: flex; align-items: center;">
-            <h3>Acesso aos boletos</h3>
-            <ul>
-                <li>
+        <div style="width: 100%; flex-direction: column; display: flex; justify-content: center; align-items: center; gap: 20px;">
+            <h2 style="color: #1783cc;">Acesso aos boletos</h2>
+            <ul style="width: 50%; display: flex; align-items: center; justify-content: center;">
+                <li style="width: 50%; background-color:#def2e2; padding: 10px;border-radius: 10px;">
                     <h4>Periodo</h4>
-                    <p style="width: 50%;">
-                        A integracao busca estende-se ao ano vigente, boletos de anos
+                    <p style="width: 100%;">
+                        A busca estende-se ao ano vigente, boletos de anos
                         anteriores deven ser buscados no portal da divida ativa ou dispositivos
                         de negociacoes da concessionaria
                     </p>
                 </li>
             </ul>
         </div>
-        <div style="width: 100%; flex-direction: column; display: flex; align-items: center;">
-            <h3>Existem dividas Ativas?</h3>
+        <div style="width: 100%; flex-direction: column; display: flex; align-items: center; gap: 20px;">
+            <h2 style="color: #1783cc;">Existem dividas Ativas?</h2>
             <ul>
                 <li>
                     <a href="https://isscuritiba.curitiba.pr.gov.br/GtmConsultaDebito/">Consulta divida ativa</a>
@@ -101,57 +110,81 @@
                 </li>
             </ul>
         </div>
-        <div style="width: 100%; flex-direction: column; display: flex; align-items: center;">
-            <h3>Taxas inclusas no Iptu? Ou impostos que nao estão inclusos?</h3>
-            <ul>
-                <li>
-                    <p>TCU-Taxa de coleta de lixo</p>
-                </li>
-            </ul>
-        </div>
-        <div>
-            <div>
-                <h4>Status da integracao</h4>
-                <p>online</p>
+        <div style="width: 100%; flex-direction: column; display: flex; align-items: center;justify-content: center;gap: 10px;">
+            <h2 style="color: #1783cc;">Taxas inclusas no Iptu? Ou impostos que nao estão inclusos?</h2>
+            <div style="display: flex; gap: 40px;">
+                <ul class="list1">
+                    <h4>Taxas inclusas</h4>
+                    <li>
+                        <p>TCU-Taxa de coleta de lixo</p>
+                    </li>
+                    <li>
+                        <p>TCU-Taxa de coleta de lixo</p>
+                    </li>
+                    <li>
+                        <p>TCU-Taxa de coleta de lixo</p>
+                    </li>
+                </ul>
+                <ul class="list1">
+                    <h4>Taxas não inclusas</h4>
+                    <li>
+                        <p>TCU-Taxa de coleta de lixo</p>
+                        <a href="http://">link para emissao da taxa</a>
+                    </li>
+                    <li>
+                        <p>TCU-Taxa de coleta de lixo</p>
+                        <a href="http://">link para emissao da taxa</a>
+                    </li>
+                    <li>
+                        <p>TCU-Taxa de coleta de lixo</p>
+                        <a href="http://">link para emissao da taxa</a>
+                    </li>
+                </ul>
             </div>
-            <div>
-                <h4>Relatorio de incidentes</h4>
-                <div>
-                    <ul>
-                        <li>
-                            <h5>dia 22/11</h5>
-                            <p>nao ouve intercorrencias</p>
-                        </li>
-                        <li>
-                            <h5>dia 21/11</h5>
-                            <p>atualizacao do sistema</p>
-                        </li>
-                        <li>
-                            <h5>dia 20/11</h5>
-                            <p>nao ouve intercorrencias</p>
-                        </li>
-                        <li>
-                            <h5>dia 19/11</h5>
-                            <p>nao ouve intercorrencias</p>
-                        </li>
-                        <li>
-                            <h5>dia 18/11</h5>
-                            <p>nao ouve intercorrencias</p>
-                        </li>
-                        <li>
-                            <h5>dia 17/11</h5>
-                            <p>nao ouve intercorrencias</p>
-                        </li>
-                        <li>
-                            <h5>dia 16/11</h5>
-                            <p>sistema em sobrecarga</p>
-                        </li>
-                        <li>
-                            <h5>dia 16/11</h5>
-                            <p>nao ouve intercorrencias</p>
-                        </li>
-                    </ul>
-                </div>
+        </div>
+        <div style="display: flex; flex-direction: column; justify-content: center; align-items:center;gap: 15px;">
+            <div style="display: flex; gap: 20px; align-items: center;">
+                <h2 style="color: #1783cc;">Status da integracao</h2>
+                <p style="color: #6ac981;font-weight: 700;font-size: 20px;">Online</p>
+                <p style="font-size: 20px;">//</p>
+                <p style="color:#f2a849 ;font-weight: 700;font-size: 20px;">Instavel</p>
+            </div>
+            <div style="width: 80%; display: flex; flex-direction: column; align-items: center;gap: 25px;">
+                <h2 style="color: #1783cc;">Relatorio de incidentes</h2>
+                <ul class="icident-list">
+                    <li>
+                        <h5>dia 22/11</h5>
+                        <p>nao ouve intercorrencias</p>
+                    </li>
+                    <li>
+                        <h5>dia 21/11</h5>
+                        <p>atualizacao do sistema</p>
+                    </li>
+                    <li>
+                        <h5>dia 20/11</h5>
+                        <p>nao ouve intercorrencias</p>
+                    </li>
+                    <li>
+                        <h5>dia 19/11</h5>
+                        <p>nao ouve intercorrencias</p>
+                    </li>
+                    <li>
+                        <h5>dia 18/11</h5>
+                        <p>nao ouve intercorrencias</p>
+                    </li>
+                    <li>
+                        <h5>dia 17/11</h5>
+                        <p>nao ouve intercorrencias</p>
+                    </li>
+                    <li>
+                        <h5>dia 16/11</h5>
+                        <p>sistema em sobrecarga</p>
+                    </li>
+                    <li>
+                        <h5>dia 16/11</h5>
+                        <p>nao ouve intercorrencias</p>
+                    </li>
+                </ul>
             </div>
         </div>
 
@@ -159,4 +192,5 @@
 
 
 </body>
+
 </html>

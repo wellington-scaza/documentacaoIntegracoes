@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+    color: #4a687b;
+    font-family: 'Roboto', sans-serif;
 }
 
 .cor1{
@@ -33,4 +35,37 @@ main{
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.list1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    border: 1px solid #1783cc;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.list1 li{
+    border: 1px solid #6ac981 ;
+    padding: 4px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icident-list{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 80%;
+    gap: 10px;
+}
+
+.icident-list h5{
+    text-decoration:underline;
+    font-weight: 800;
+    font-size: large;
 }
